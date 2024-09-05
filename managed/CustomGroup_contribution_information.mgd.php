@@ -58,7 +58,7 @@ return [
       'values' => [
         'custom_group_id.name' => 'contribution_information',
         'name' => 'refund_amount',
-        'label' => E::ts('refund_amount'),
+        'label' => E::ts('Total amount of refunds'),
         'data_type' => 'Money',
         'html_type' => 'Text',
         'column_name' => 'refund_amount',
