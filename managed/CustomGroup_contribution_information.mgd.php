@@ -1,6 +1,6 @@
 <?php
 
-use CRM_Customfields_ExtensionUtil as E;
+use CRM_GreenpeaceContribute_ExtensionUtil as E;
 
 return [
   [
@@ -44,6 +44,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -64,6 +65,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -84,6 +86,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -106,6 +109,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -128,6 +132,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -148,6 +153,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -170,6 +176,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -249,6 +256,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
@@ -270,6 +278,7 @@ return [
       ],
       'match' => [
         'name',
+        'custom_group_id',
       ],
     ],
   ],
