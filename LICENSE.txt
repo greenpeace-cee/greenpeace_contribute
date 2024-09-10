@@ -1,5 +1,5 @@
 Package: greenpeace_contribute
-Copyright (C) 2024, FIXME <FIXME>
+Copyright (C) 2024, Manuel Flandorfer <mflandor@greenpeace.org>
 Licensed under the GNU Affero Public License 3.0 (below).
 
 -------------------------------------------------------------------------------

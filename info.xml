@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="greenpeace_contribute" type="module">
   <file>greenpeace_contribute</file>
-  <name>greenpeace_contribute</name>
-  <description>FIXME</description>
+  <name>Greenpeace Contribute</name>
+  <description>Managed entities for contribution-related CustomFields</description>
   <license>AGPL-3.0</license>
   <maintainer>
-    <author>FIXME</author>
-    <email>FIXME</email>
+    <author>Manuel Flandorfer</author>
+    <email>mflandor@greenpeace.org</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/greenpeace-cee/greenpeace_contribute</url>
+    <url desc="Documentation">https://github.com/greenpeace-cee/greenpeace_contribute</url>
+    <url desc="Support">https://github.com/greenpeace-cee/greenpeace_contribute/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2024-09-05</releaseDate>
@@ -20,7 +20,10 @@
   <compatibility>
     <ver>5.69</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <requires>
+    <ext>org.project60.banking</ext>
+  </requires>
+  <comments></comments>
   <classloader>
     <psr0 prefix="CRM_" path="."/>
     <psr4 prefix="Civi\" path="Civi"/>
