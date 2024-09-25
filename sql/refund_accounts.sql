@@ -8,7 +8,9 @@ ALTER TABLE civicrm_value_contribution_information
 
 UPDATE civicrm_value_contribution_information
     SET refund_account =
-        (SELECT ba_id FROM civicrm_bank_account_reference WHERE reference = refund_account_copy)
+        (SELECT ba_id FROM civicrm_bank_account_reference bar
+         JOIN civicrm_bank_account ba ON ba.id = bar.ba_id
+         WHERE bar.reference = refund_account_copy AND ba.contact_id = 1)
     WHERE refund_account_copy IS NOT NULL;
 
 ALTER TABLE civicrm_value_contribution_information
