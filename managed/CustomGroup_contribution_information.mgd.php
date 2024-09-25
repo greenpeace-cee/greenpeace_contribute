@@ -63,6 +63,7 @@ return [
         'label' => E::ts('Total amount of refunds'),
         'data_type' => 'Money',
         'html_type' => 'Text',
+        'is_active' => TRUE,
         'column_name' => 'refund_amount',
       ],
       'match' => [
