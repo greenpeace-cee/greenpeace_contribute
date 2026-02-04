@@ -22,11 +22,11 @@ class ContributionActivity extends AutoSubscriber {
 
   public static function getSubscribedEvents() {
     return [
-      'hook_civicrm_postCommit' => ['hook_civicrm_postCommit', 0],
+      'hook_civicrm_post' => ['hook_civicrm_post', 0],
     ];
   }
 
-  public static function hook_civicrm_postCommit(GenericHookEvent $event) {
+  public static function hook_civicrm_post(GenericHookEvent $event) {
     if ($event->entity !== 'Contribution' || !in_array($event->action, ['create', 'edit', 'delete']) || empty($event->id)) {
       return;
     }
