@@ -220,7 +220,7 @@ return [
         'option_group_id.name' => 'billing_operator',
         'label' => E::ts('T-Mobile'),
         'value' => '2',
-        'name' => 'T_Mobile',
+        'name' => 'T-Mobile',
       ],
       'match' => [
         'name',
